@@ -127,10 +127,6 @@ ul#log {
                     
 
                     map.once('moveend', () => {
-                    // Confirm action after flying
-                    if (!confirm('Do you want to proceed with fetching parking data for this location?')) {
-                        return; // Exit if the user cancels
-                    }
                     total_mask_area = 0;
                     total_rectangle_area = 0;
                     total_area_without_red = 0;
